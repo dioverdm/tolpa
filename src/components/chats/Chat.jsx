@@ -201,7 +201,7 @@ const Chat = () => {
           <input
             type="text"
             className="bg-transparent w-44 sm:w-80 "
-            placeholder="Type a message"
+            placeholder="Escribe un mensaje"
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
@@ -247,7 +247,7 @@ const Chat = () => {
           <input
             type="text"
             className=" w-80 bg-black/25 p-2 rounded-md lg:w-[360px]"
-            placeholder="Type a message"
+            placeholder="Escribe un mensaje"
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
