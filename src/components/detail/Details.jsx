@@ -32,26 +32,26 @@ const Details = () => {
             <h1><SlOptionsVertical /></h1>
           </div>
           <h1 className='font-semibold text-lg'>{user?.username}</h1>
-          <span className='text-xs font-thin'>Alhumdulillah for Everything.</span>
+          <span className='text-xs font-thin'>Información del usuario</span>
         </div>
         <hr className='opacity-15' />
 
         <div className='flex flex-col gap-4 px-4 pt-4'>
           <div className='flex justify-between'>
-            <h3 className='text-sm mt-1'>Chat Settings</h3>
+            <h3 className='text-sm mt-1'>Configuraciones del chat</h3>
             <div className='bg-black/25 p-2 rounded-full'
             ><img src="./arrowDown.png" alt="" className='w-3 h-3 rounded-full' /></div>
           </div>
 
           <div className='flex justify-between'>
-            <h3 className='text-sm mt-1'>Privacy & Help</h3>
+            <h3 className='text-sm mt-1'>Privacidad y Ayuda</h3>
             <div className='bg-black/25 p-2 rounded-full'
             ><img src="./arrowDown.png" alt="" className='w-3 h-3 rounded-full' /></div>
           </div>
 
 
           <div className='flex justify-between'>
-            <h3 className='text-sm mt-1'>Shared Photos</h3>
+            <h3 className='text-sm mt-1'>Fotos compartidas</h3>
             <div className='bg-black/25 p-2 rounded-full'
             ><img src="./arrowUp.png" alt="" className='w-3 h-3 rounded-full' /></div>
           </div>
@@ -98,9 +98,9 @@ const Details = () => {
         </div>
 
         <div className='flex flex-col gap-3 mt-6 md:mt-8'>
-          <button className='bg-red-500 rounded-md p-1.5 text-sm flex justify-center text-center w-full'>Block User</button>
+          <button className='bg-red-500 rounded-md p-1.5 text-sm flex justify-center text-center w-full'>Bloquear usuario</button>
           <button className='bg-[#5082FC] rounded-md p-1.5 text-sm flex justify-center text-center w-full'
-          onClick={()=>firebase.signOut(firebaseAuth)}>Logout</button>
+          onClick={()=>firebase.signOut(firebaseAuth)}>Cerrar Sesión</button>
         </div>
 
 
