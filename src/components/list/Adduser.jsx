@@ -76,8 +76,8 @@ const AddUser = (props) => {
   return (
     <div className="p-4 bg-black/60 rounded-md flex flex-col gap-4 backdrop-blur-lg">
       <form onSubmit={handleSearch} className="flex gap-3">
-        <input type="text" placeholder="Username" name="username" className="w-44 bg-gray-100 text-black p-1.5 rounded-md focus:border-none" />
-        <button className="text-[#5082FC] font-semibold">Search</button>
+        <input type="text" placeholder="Nombre de usuario" name="username" className="w-44 bg-gray-100 text-black p-1.5 rounded-md focus:border-none" />
+        <button className="text-[#5082FC] font-semibold">Buscar</button>
       </form>
       {user ? (
         <div className="flex gap-8">
@@ -85,7 +85,7 @@ const AddUser = (props) => {
             <img src={user.avatar || "./avatar.png"} alt="" className="w-12 h-12 rounded-md object-cover " />
             <span className="mt-2 font-semibold text-lg">{user.username}</span>
           </div>
-          <button className="p-1.5 mt-1.5 w-20 h-8 rounded-md bg-[#5082FC] text-white text-xs font-semibold" onClick={handleAdd}>Add User</button>
+          <button className="p-1.5 mt-1.5 w-20 h-8 rounded-md bg-[#5082FC] text-white text-xs font-semibold" onClick={handleAdd}>Agregar</button>
         </div>
       )
       :
