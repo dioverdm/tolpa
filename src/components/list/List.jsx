@@ -28,7 +28,7 @@ const List = () => {
           <div className='w-5 h-5'>
             <img src="./search.png" alt="" />
           </div>
-          <input type="text" placeholder="Search" className=' bg-transparent w-40' />
+          <input type="text" placeholder="Buscar" className=' bg-transparent w-40' />
         </div>
       </div>
 
