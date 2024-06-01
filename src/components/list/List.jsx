@@ -16,7 +16,7 @@ const List = () => {
   return (
     <div className='flex flex-col h-full overflow-hidden  md:w-80 relative lg:w-96'>
       <div className='flex justify-between p-2 mx-2 mt-2'>
-        <h1 className='font-semibold text-xl tracking-wider lg:pl-2'>ChatPlace</h1>
+        <h1 className='font-semibold text-xl tracking-wider lg:pl-2'>TOLPA</h1>
         <div className='flex justify-between gap-4'>
           <h1 className='text-2xl'><BsCamera /></h1>
           <h1 className='mt-1'><SlOptionsVertical /></h1>
